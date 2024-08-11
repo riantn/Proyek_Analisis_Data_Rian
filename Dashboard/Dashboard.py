@@ -25,6 +25,7 @@ season_rentals_2012['season'] = season_rentals_2012['season'].map({1: 'Spring', 
 fall_2011 = season_rentals_2011[season_rentals_2011['season'] == 'Fall']
 fall_2012 = season_rentals_2012[season_rentals_2011['season'] == 'Fall']
 
+st.header('Dashboard Rental Bikes Rian')
 
 st.subheader('Best Season for Rental Bikes')
 
